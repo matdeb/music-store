@@ -1,0 +1,15 @@
+.albumEntry {
+    text-align: center;
+    color: grey;
+    padding: 5px;
+    font-family: "Open Sans";
+    width: 350px;
+    float: left;
+  }
+
+.artistAlbum{
+    font-weight: bold;
+}
+.year {
+    font-style: italic;
+}
