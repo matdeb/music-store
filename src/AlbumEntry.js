@@ -4,9 +4,9 @@ import './AlbumEntry.css';
 function AlbumEntry(props){
     return (
         <div class="albumEntry">
-            <img src={props.artwork} alt="album artwork" width="300" height="300"/>  
-            <div class="artistAlbum">{props.artist} - {props.album}</div>
-            <div class="year">{props.year}</div>
+            <img src={props.entry.artwork} alt="album artwork" width="300" height="300"/>  
+            <div class="artistAlbum">{props.entry.artist} - {props.entry.album}</div>
+            <div class="year">{props.entry.year}</div>
         </div>
     );
 }
