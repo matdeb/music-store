@@ -1,0 +1,4 @@
+<configurations defaultconfmapping="conf1->other1;conf2->other2">
+   <conf name="conf1" />
+   <conf name="conf2" extends="conf1" />
+</configurations>
